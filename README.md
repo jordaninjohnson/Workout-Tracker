@@ -18,7 +18,7 @@
 
 <h1>Installation</h1>
 
-<strong>Technologies:</strong> JQuery, Express, Sequelize, Passport, Handlebars, Bulma, CarMD API
+<strong>Technologies:</strong>
 <h2>Clone or Download</h2>
 <ul>
 <li>Clone or download this repo to your local machine</li>
