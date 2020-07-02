@@ -1,15 +1,16 @@
 const API = {
   async getLastWorkout() {
-    console.log("api getLastWorkoutRunning");
+    // console.log("api getLastWorkoutRunning");
     let res;
     try {
       res = await fetch("/api/workouts");
+      const json = await res.json();
+      console.log(res);
+      return json[json.length - 1];
     } catch (err) {
       console.log(err)
     }
-    const json = await res.json();
 
-    return json[json.length - 1];
   },
   async addExercise(data) {
     const id = location.search.split("=")[1];
@@ -37,9 +38,15 @@ const API = {
   },
 
   async getWorkoutsInRange() {
-    const res = await fetch(`/api/workouts/range`);
-    const json = await res.json();
-
-    return json;
+    fetch(`/api/workouts/range`).then(res => res.json()).then(data => console.log(data)).catch(error => console.log(error));
+    /*try {
+      // const res = await 
+      console.log(res);
+      const json = await res.json();
+  
+      return json;
+    } catch(error) {
+      console.log(error);
+    }*/
   },
 };
