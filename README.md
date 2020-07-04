@@ -2,8 +2,8 @@
 
 <h1>Workout-Tracker!</h1>
 
-<h1>Description</h1>
-
+<h1>User Story</h1>
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 <h1>Table of Contents</h1>
 
@@ -11,7 +11,6 @@
 <li><a href="#installation">Installation</a></li>
 <li><a href="#usage">Usage</a></li>
 <li><a href="#contributing">Contributing</a></li>
-<li><a href="#faq">FAQ</a></li>
 <li><a href="#support">Support</a></li>
 <li><a href="#license">License</a></li>
 </ul>
@@ -39,6 +38,7 @@
 
 <h1>Usage</h1>
 
+![img](./assets/images/Workout-Tracker.png)
 <h1>Contributing</h1>
 
 <p><strong>Instructions</strong></p>
@@ -54,16 +54,8 @@
 </li>
 </ul>
 
-<h1>FAQ</h1>
-<ul>
-<li><strong></strong>
-<ul>
-<li> </li>
-</ul>
-</ul>
-
 <h1>Support</h1>
-
+<p>Contact me with any questions! =]
 <h1>License</h1>
 
 <p><a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT license"></a></p>
