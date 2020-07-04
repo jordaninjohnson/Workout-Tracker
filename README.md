@@ -18,15 +18,18 @@
 
 <h1>Installation</h1>
 
-<strong>Technologies:</strong>
+<strong>Technologies: MongoDb, Mongoose, Nosql, Express, HTML5, CSS, JavaScript</strong>
 <h2>Clone or Download</h2>
 <ul>
 <li>Clone or download this repo to your local machine</li>
 </ul>
 <h2>Setup</h2>
 <ul>
-  <li>Open your terminal into the root directory of the project folder.</li>
-  <li>Use this command to download packages:<code>npm i</code></li>
+  <li> Make sure you have MongoDB installed</li>
+  <li> Open a terminal and start MongoDB</li>
+  <li> Open another terminal and navigate into the root directory of the project folder.</li>
+  <li> Use this command to download packages:<code>npm i</code></li>
+  <li> Insert seed files with the command:<code>node seeders/seed.js</code></li>
 </ul>
 
 <h2>Run it!</h2>
